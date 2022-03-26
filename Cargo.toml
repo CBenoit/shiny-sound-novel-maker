@@ -1,0 +1,12 @@
+[package]
+name = "shiny-sound-novel-maker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.6.1", features = ["dynamic"] }
+rfd = "0.8.1"
+pollster = "0.2.5"
+
+[workspace]
+resolver = "2"
